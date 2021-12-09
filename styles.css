@@ -1,0 +1,111 @@
+.header{
+    background-color: #1f2937;
+    overflow: hidden;
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-right{
+    float:right;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text-left h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.text-left h2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-right{
+    font-size: 18px;
+    color: #e5e7eb;
+} 
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #1f2937;
+}
+
+.first .text-left {
+    display:flex;
+    align-items: center;
+}
+
+.first .img-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.fourimagescontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+.quotecontainer{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.quote{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    padding-bottom: 5%;
+    justify-content: flex-end;
+}
+
+.text{
+    padding: 5%;
+    margin: 10%;
+    border-radius: 25px;
+    display: flex;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.acolade{
+    padding: 0%;
+    margin: 0%;
+}
+
